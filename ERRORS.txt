@@ -1,0 +1,16 @@
+PROJECT 10 - AI TUTOR - ERROR LOG
+=================================
+Date: 2026-04-03
+
+ISSUE: Mistral Model Timeout
+-----------------------------
+Error: Request hangs/takes 60+ seconds for Ollama mistral model
+Root Cause: mistral model response time is very slow on this hardware (RX580, no high-end GPU)
+Status: Server starts correctly on port 8010, API endpoint accepts requests but LLM response times out
+
+VERIFICATION:
+- Server starts: YES (uvicorn on port 8010)
+- Endpoint accepts requests: YES
+- LLM integration: SLOW (mistral model takes >60 seconds)
+
+NOTE: All projects using mistral (2,6,7,8,9,10) have same slow response issue.
