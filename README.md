@@ -2,6 +2,10 @@
 
 An AI-powered assistant for educators and learners that simplifies complex lessons, generates quizzes with answers, and extracts key learning concepts. Perfect for creating educational content and study aids.
 
+## Screenshot
+
+![AITutor](AITutor.png)
+
 ## Features
 
 - **Student-Friendly Explanations**: Simplifies complex topics for easy understanding
